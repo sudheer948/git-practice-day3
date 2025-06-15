@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Session</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome! Book a session with a personal coach.</h1>
+        <p>Here you can book 1 on 1 session with your personal coach and they can assist you with all you want with.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Meet Your Coach</h2>
+            <img src="./img/coach.jpg" alt="Personal Coach Photo" width="200px"><br>
+            <p>Hi! I'm Alex, a certified personal coach helping transform their lives in fitness, career, and personal
+                development.</p>
+        </section>
+
+        <section>
+            <h2>Session Booking Form</h2>
+            <form action="#" method="post">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required><br><br>
+
+                <label for="emailaddress">Email Address:</label>
+                <input type="email" id="emailaddress" name="email" required><br><br>
+
+                <label for="session-type">Session Type:</label>
+                <select id="session-type" name="session type">
+                    <option value="Personal">Personal</option>
+                    <option value="Career">Career</option>
+                    <option value="Fitness">Fitness</option>
+                </select><br><br>
+
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="preferred_date" required><br><br>
+
+                <label>Time Slot:</label><br>
+                <input type="radio" id="morning" name="time_slot" value="Morning" required>
+                <label for="morning">Morning</label><br>
+                <input type="radio" id="afternoon" name="time_slot" value="Afternoon" required>
+                <label for="afternoon">Afternoon</label><br>
+                <input type="radio" id="evening" name="time_slot" value="Evening" required>
+                <label for="evening">Evening</label><br><br>
+
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I acknowledge responsibility for my actions during the session.</label><br>
+                <input type="checkbox" id="conditions" name="conditions" required>
+                <label for="conditions">I agree to use this platform respectfully.</label><br><br>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Coach Alex. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
